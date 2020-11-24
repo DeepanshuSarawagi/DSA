@@ -16,7 +16,7 @@ public class Main {
         int[] intArray = new int[7];
 
         for (int i=0; i<7; i++) {
-            intArray[i] = i + 10;
+            intArray[i] = i + 15;
         }
 
         // Printing the elements of array
