@@ -11,7 +11,7 @@ public class Main {
     Every element occupies the same amount of space in memory. For example, in Java, an int is 4 bytes long. Hence,
     every element of int array will occupy 4 bytes of space in memory.
 
-    if the memory starts at memory address x and there are y elements in array and if we know the index of the starting
+    if the memory starts at memory address x and y is the size of elements in array and if we know the index of the starting
     element, then we can find the memory address of the ith element using the following expression (x + i*y)
      */
 
