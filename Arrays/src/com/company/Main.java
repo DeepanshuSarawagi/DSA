@@ -18,13 +18,24 @@ public class Main {
     public static void main(String[] args) {
         int[] intArray = new int[7];
 
-        for (int i=0; i<7; i++) {
+        for (int i=0; i<intArray.length; i++) {
             intArray[i] = i + 15;
         }
 
         // Printing the elements of array
         for (int i=0; i<intArray.length; i++) {
             System.out.println(intArray[i]);
+        }
+
+        // How to figure out the index of a known element in array
+
+        int index;
+        for (int i=0; i<intArray.length; i++) {
+            if (intArray[i] == 18) {
+                index = i;
+                System.out.println("Element " + intArray[index] + " is at index position " + index);
+                break;
+            }
         }
     }
 }
