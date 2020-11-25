@@ -2,7 +2,10 @@ package com.company;
 
 public class Main {
     /*
-    Bubble Sort algorithm is a stable algorithm. It has a quadratic time complexity =, hence, one of the least efficient
+    Bubble Sort algorithm is a stable algorithm. By stable, it means, consider we have two identical elements in an
+    array. Then the position of those elements will not be swapped hence making it stable.
+
+    It has a quadratic time complexity =, hence, one of the least efficient
     sorting algorithms in place.
     The Big(O) notation is n^2, hence, makes the time complexity as quadratic. For sorting 100 items, we would need to
     loop 10000 times to sort an array.
