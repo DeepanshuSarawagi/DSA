@@ -18,6 +18,22 @@ public class Main {
 
     public static void main(String[] args) {
 
+        int[] intArray = {20, 35, -15, 7, 1, 55, -22};
+        for(int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
+            int largest = 0;
+            for (int i =1; i<=lastUnsortedIndex; i++) {
+                if (intArray[i] > intArray[largest]) {
+                    largest = i;
+                    System.out.println(largest);  // TODO Remove this after code test
+                }
+            }
+            swapElements(intArray, largest, lastUnsortedIndex);
+        }
+
+        for (int j : intArray) {
+            System.out.println(j);
+        }
+
     }
 
     public static void swapElements(int[] array, int i, int j) {
