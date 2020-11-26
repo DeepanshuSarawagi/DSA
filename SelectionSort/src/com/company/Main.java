@@ -28,6 +28,10 @@ public class Main {
                 }
             }
             swapElements(intArray, largest, lastUnsortedIndex);
+            for (int j : intArray) {
+                System.out.print(j + " ");
+            }
+            System.out.println();
         }
 
         for (int j : intArray) {
