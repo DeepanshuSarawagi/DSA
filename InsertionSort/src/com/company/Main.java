@@ -30,5 +30,9 @@ public class Main {
             }
 	        intArray[i] = newElement;
         }
+
+	    for (int j : intArray) {
+			System.out.println(j);
+		}
     }
 }
