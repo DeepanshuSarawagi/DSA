@@ -34,10 +34,6 @@ public class Main {
             System.out.println();
         }
 
-        for (int j : intArray) {
-            System.out.println(j);
-        }
-
     }
 
     public static void swapElements(int[] array, int i, int j) {
