@@ -2,15 +2,16 @@ package com.company;
 
 public class selectionSortPractice {
     public static void main(String[] args) {
-        int[] intArray = {190, 11, -90, -846, 25, 99, 901, 571};
+        int[] intArray = {902, 11, -90, -846, 25, 99, 901, 571, 1091};
         for (int lastUnsortedIndex = intArray.length-1; lastUnsortedIndex>0; lastUnsortedIndex--) {
             int largest = 0;
             for (int i=1; i<=lastUnsortedIndex; i++) {
                 if (intArray[i] > intArray[largest]) {
                     largest = i;
                 }
-                System.out.println(largest);
+                System.out.println("i is now " + i + " and largest element is " + intArray[largest]);
             }
+            System.out.println();
             swapElements(intArray, largest, lastUnsortedIndex);
         }
 
