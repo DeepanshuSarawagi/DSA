@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    int[] intArray = {-20, 89, 96, -71, 105, 692, -897};
+
     }
 }
